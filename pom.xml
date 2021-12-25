@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>DevopsDeepdive</name>
+		<url>http://devopsdeepdive/</url>
 	</organization>
 
 	<properties>
@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <name>devopsdeepdive Releases Nexus Repository</name>
+	      <url>http://127.0.0.1:8081/repository/maven-web-project/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <name>devopsdeepdive Snapshot Nexus Repository </name>
+	      <url>http://127.0.0.1:8081/repository/maven-web-project/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
