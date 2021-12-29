@@ -131,7 +131,7 @@
 
 					<configuration>
 						<!-- context root for Java web apps -->
-						<server>tomcat</server>
+						<server>tomcat-user</server>
 						<url>http://localhost:8081/manager/text</url>
 						<path>/mavenwebapplication</path>
 					</configuration>
