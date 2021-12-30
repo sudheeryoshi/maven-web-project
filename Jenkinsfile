@@ -29,7 +29,7 @@ pipeline {
     }
      stage('Notification') {
             steps {
-                slackSend channel: '#pipeline-jobs', color: 'good', iconEmoji: ':with:grin:', message: 'Build is succesful', tokenCredentialId: 'slack'
+                slackSend channel: '#pipeline-jobs', color: 'good', iconEmoji: ':with:grin:', message: 'Build is succesful and deployed', tokenCredentialId: 'slack'
         }
     }
 }
