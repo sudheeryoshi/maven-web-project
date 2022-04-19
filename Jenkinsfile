@@ -9,12 +9,12 @@ pipeline {
         }
          stage('Build-new') {
             steps {
-                bat 'mvn validate'
+                sh 'mvn validate'
         }
     }
         stage('package') {
             steps {
-                bat 'mvn clean package'
+                sh 'mvn clean package'
         }
     }
      /*  stage('Test') {
