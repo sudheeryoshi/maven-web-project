@@ -7,14 +7,14 @@ pipeline {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'devopsdeepdive2', url: 'https://github.com/devopsdeepdive/maven-web-project.git']]])
             }
         }
-         stage('Build') {
+         stage('Build-new') {
             steps {
                 sh 'mvn validate'
         }
     }
         stage('package') {
             steps {
-                bat 'mvn clean package'
+                sh 'mvn clean package'
         }
     }
      /*  stage('Test') {
