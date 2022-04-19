@@ -24,7 +24,7 @@ pipeline {
     } */
          stage('Deploy') {
             steps {
-                bat 'mvn install tomcat7:deploy'
+                sh 'mvn install tomcat7:deploy'
         }
     }
      stage('Notification') {
