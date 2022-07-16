@@ -19,7 +19,7 @@ pipeline {
     }
       stage('Test') {
             steps {
-                sh 'mvn tt'
+                sh 'mvn testt'
         }
     } 
          stage('Deploy') {
