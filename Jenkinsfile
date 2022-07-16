@@ -17,11 +17,11 @@ pipeline {
                 sh 'mvn clean package'
         }
     }
-     /*  stage('Test') {
+      stage('Test') {
             steps {
-                bat 'mvn test'
+                sh 'mvn test'
         }
-    } */
+    } 
          stage('Deploy') {
             steps {
                 sh 'mvn install tomcat7:deploy'
