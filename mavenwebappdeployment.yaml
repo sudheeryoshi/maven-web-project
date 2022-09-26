@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: sudheer
-          image: sudheer123.azurecr.io/sudheer123/devops:2.2.2
+          image: sudheer123.azurecr.io/sudheer123/devops:2.2
           ports:
             - containerPort: 8080
           resources:
